@@ -1,0 +1,19 @@
+Public class Main {
+
+ public static void main (String [] args){
+  coche Micoche = new coche;
+  Micoche.ponerpuertas();
+  Micoche,ponerpuertas();
+  
+  System.out.println(Micoche.puertas);
+
+}
+
+class coche {
+  public int puertas = 5;
+  public void ponerpuertas (){
+     this.puertas++;
+    }
+   }
+   
+}
